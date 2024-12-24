@@ -1,0 +1,18 @@
+package com.nab.contro.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.Date;
+
+@Getter @Setter @AllArgsConstructor @NoArgsConstructor
+public class BookDTO {
+
+    private String title;
+    private String publisher;
+    private Date datePublication;
+    private double price;
+    private String resume;
+}
